@@ -12,7 +12,7 @@ def sidebar():
         st.markdown(
             "## How to use\n"
             "1. Upload a  in pdf, docx, or txt format\n"
-            "2. Ask a question about the document💬\n"
+            "2. Ask a question about the document\n"
         )
 
         st.session_state["OPENAI_API_KEY"] = st.secrets.openai_api_key
