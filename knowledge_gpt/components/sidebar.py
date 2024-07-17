@@ -11,7 +11,7 @@ def sidebar():
     with st.sidebar:
         st.markdown(
             "## How to use\n"
-            "1. Upload a pdf, docx, or txt file📄\n"
+            "1. Upload a  in pdf, docx, or txt format\n"
             "2. Ask a question about the document💬\n"
         )
 
@@ -20,11 +20,13 @@ def sidebar():
         st.markdown("---")
         st.markdown("# About")
         st.markdown(
-            "BLS Assistant allows you to ask questions about your "
-            "documents and get accurate answers with instant citations. "
+            "BLS Assistant allows you to ask questions about studies "
+            "and get accurate answers with instant citations. "
+            "At the moment only one document is supoprted at a time. "
+            "We are working on adding support for multiple documents. "
         )
         st.markdown(
-            "This tool is a work in progress. "
+            "This tool is a work in progress... "
         )
         st.markdown("---")
 
